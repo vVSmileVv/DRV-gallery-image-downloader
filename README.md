@@ -15,7 +15,7 @@ pip install -r requirements.txt
 ## 사용법
 
 ```
-python creation.py --start 1 --end 10 --save_dir 이미지저장경로 --log 로그파일경로
+python creation.py경로 --start 1 --end 10 --save_dir "이미지저장경로" --log "로그파일경로"
 ```
 
 - `--start`: 시작 페이지 번호 (필수)
@@ -26,7 +26,7 @@ python creation.py --start 1 --end 10 --save_dir 이미지저장경로 --log 로
 예시:
 
 ```
-python creation.py --start 1 --end 5 --save_dir "C:\사진저장폴더" --log "C:\사진저장폴더\크롤로그.txt"
+python C:\creation.py --start 1 --end 5 --save_dir "C:\사진저장폴더" --log "C:\사진저장폴더\크롤로그.txt"
 ```
 
 > **주의:** `--save_dir`, `--log` 옵션을 반드시 입력해야 하며, 입력하지 않으면 실행되지 않습니다.
